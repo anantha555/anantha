@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anantha's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+         -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/anantha.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hy, I am <strong>Anantha Kumar</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Creative Visionary-Rookie Web Dev</p>
+            <img src="img/anantha-01.jpg" alt="a picture of Anantha smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>For the past 3 years, I have been working as a web developer with a financial service company. In this role, I have been able to learn new skills and have developed a wide breadth of skills across multiple platforms in order to implement large-scale solutions.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Develop</h3>
+                    <p>I have worked on web apps and backend projects to develop RESTful web services and database querying systems using Java and oracle Pl/SQL. I have also designed and developed front end components using HTML, CSS, JavaScript and ReactJS in Agile SDLC environments. Worked on various deployment processes using tools like Git, GitHub, Jenkins onto cloud.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Learn</h3>
+                    <p>Currently, I am fascinated and learning more about CSS frameworks, JS frameworks, NoSQL databases, AI, ML, DL algos using python. I have been working various project meanwhile to learn and showcase my new skills.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Web developer based out of Bangalore, India</p>
+           
+           <div class="about-me__body">
+               <p>What am I fan of? Technology, Smartphones, Programming, AI & ML, Cricket, Marketing Strategies’ that make my life so much better and exciting.</p>
+               <p>Currently, I am working as a web developer at a financial firm with technologies like Java, Oracle PL/SQL, React JS following the Agile SDLC processes. Meanwhile learning about the latest trends in artificial intelligence, machine learning using Python.
+                Earlier, I had opportunity to work with different start-ups and college entrepreneurial clubs in field of marketing and learn about many exciting things and strategies’ one can do to interest audience.</p>
+               <p>I have an attitude to learn with courage of an entrepreneur and like to think as an optimist.I am very much involved in Open Source Contribution in fields/ technologies like Python, Java, Machine Learning, Deep Learning, Django, React JS, SQL....</p>
+               <p>I do not like feeling stranded about a problem. I would rather try to solve it. If you are one of those crazy ones, do <a href='#footer'>ping</a> me for a conversation!</p>
+           </div>
+           
+           <img src="img/anantha-02.jpg" alt="Anantha Speaking" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id='footer'>
+            <!-- replace with your own email address -->
+            <a href="mailto:ananthakumargn@gmail.com?Subject=Hello" target="_top" class="footer__link">ananthakumargn@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/anantha555/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/ananthak555">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/anantha555">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/anantha555/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/ananthak555/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
